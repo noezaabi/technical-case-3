@@ -1,0 +1,19 @@
+{
+  "name": "interview-case-3-interviewee",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Interviewee package for catalog sync backend case",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^24.6.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.4.5"
+  }
+}
