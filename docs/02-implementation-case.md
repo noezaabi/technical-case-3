@@ -14,7 +14,7 @@ Treat this as a small production-like backend task. Focus on correctness first, 
 
 Questions to keep in mind while implementing:
 
-- How should `planDiff` identify changes in a way that is reliable and predictable? (`diff`, `equality`, `ordering`)
+- How should `planDiff` identify changes in a way that is reliable and predictable? (`diff`, `equality`)
 - How should `persistDiff` behave if one write fails in the middle? (`transaction`, `atomicity`, `rollback`)
 - How should `execute` behave if the same trigger is replayed, or if another sync is already running? (`idempotency`, `lock`, `concurrent`)
 
