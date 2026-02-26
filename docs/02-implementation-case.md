@@ -22,7 +22,6 @@ Questions to keep in mind while implementing:
 
 - Keep method signatures unchanged
 - Do not modify tests
-- Keep implementation readable and explainable
 
 ## Command
 
